@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/instrumentBrandTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/instrumentModelTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/instrumentBrandTv"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/instrumentTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instrumentBrandTv"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/type"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/instrumentTypeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/instrumentTypeLabel"
+        android:layout_below="@+id/instrumentBrandTv"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/instrumentPriceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/instrumentTypeTv"
+        android:layout_below="@+id/instrumentBrandTv"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/price"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/instrumentPriceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/instrumentPriceLabel"
+        android:layout_below="@+id/instrumentBrandTv"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/instrumentQuantityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/instrumentPriceTv"
+        android:layout_below="@+id/instrumentBrandTv"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/quantity"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/instrumentQuantityTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/instrumentQuantityLabel"
+        android:layout_below="@+id/instrumentBrandTv"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

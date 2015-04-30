@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShopListApp</string>
+    <string name="main_activity_title">Shop List</string>
+
+    <string name="action_map">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="type">type:</string>
+    <string name="price">price:</string>
+    <string name="quantity">quantity:</string>
+    <string name="please_wait">Please Wait!</string>
+    <string name="shops_loading">Shops are being loaded!</string>
+    <string name="instruments_loading">Instruments are being loaded!</string>
+
+    <string name="title_activity_details">Shop Details</string>
+    <string name="title_activity_map">Map</string>
+
+</resources>
